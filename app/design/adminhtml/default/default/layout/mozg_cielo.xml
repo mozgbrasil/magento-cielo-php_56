@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<layout>
+
+    <!-- /index.php/admin/mozg_cielo_event_queue/ -->
+
+    <adminhtml_mozg_cielo_event_queue_index>
+        <reference name="content">
+            <block type="mozg_cielo/adminhtml_mozg_cielo_event_queue" name="mozg.cielo.event.queue.grid.index"/>
+        </reference>
+    </adminhtml_mozg_cielo_event_queue_index>
+
+    <adminhtml_mozg_cielo_event_queue_grid>
+        <remove name="root"/>
+        <block type="mozg_cielo/adminhtml_mozg_cielo_event_queue_grid" name="mozg.cielo.event.queue.grid" output="toHtml"/>
+    </adminhtml_mozg_cielo_event_queue_grid>
+
+    <!-- /index.php/admin/mozg_cielo_status_transaction/ -->
+
+    <adminhtml_mozg_cielo_status_transaction_index>
+        <reference name="content">
+            <block type="mozg_cielo/adminhtml_mozg_cielo_status_transaction" name="mozg.cielo.status.transaction.grid.index"/>
+        </reference>
+    </adminhtml_mozg_cielo_status_transaction_index>
+
+    <adminhtml_mozg_cielo_status_transaction_grid>
+        <remove name="root"/>
+        <block type="mozg_cielo/adminhtml_mozg_cielo_status_transaction_grid" name="mozg.cielo.status.transaction.grid" output="toHtml"/>
+    </adminhtml_mozg_cielo_status_transaction_grid>
+
+    <!-- ? -->
+
+</layout>

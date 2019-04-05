@@ -1,0 +1,33 @@
+{
+    "name": "mozgbrasil/magento-cielo-php_56",
+    "description": "Integração ao cielo",
+    "version": "dev-master",
+    "type": "magento-module",
+    "keywords": ["cerebrum", "mozg", "magento", "payment", "pagamento", "cielo"],
+    "homepage": "http://mozg.com.br",
+    "time": "2019-04-05 01:37:18",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Marcio dos Santos Amorim",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento-cielo-php_56/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/magento-cielo-php_56",
+        "docs": "https://github.com/mozgbrasil/magento-cielo-php_56/wiki",
+        "rss": "http://mozg.com.br/sitemap.xml"
+    },
+    "require" : {
+        "mozgbrasil/magento-payment-php_56": "dev-master"
+    }
+}
